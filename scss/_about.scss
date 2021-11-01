@@ -1,0 +1,45 @@
+.about {
+    background-color: white;
+    position: relative;
+    &_img {
+        width: 960px;
+        height: 940px;
+        position: absolute;
+    }
+}
+
+.about_scroll_bar {
+    position: absolute;
+    top: 388px;
+    right: 138px;
+    z-index: 2;
+}
+
+.about_container {
+    position: absolute;
+    top: 275px;
+    right: 353px;
+    max-width: 500px;
+    z-index: 2;
+    h2 {
+        margin-bottom: 60px;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: right;
+        color: #000000;
+    }
+
+    p {
+        margin-bottom: 40px;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: right;
+        color: #606060;
+    }
+}
