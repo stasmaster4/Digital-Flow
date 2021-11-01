@@ -1,11 +1,28 @@
 $font: 'Montserrat', sans-serif;
+$wrap: 1920px;
+$container: 1214px;
+$mc: 0 auto; /* margin center */
+$tc: black; /* text color black */
+$tw: white; /* text color white */
 
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
+@mixin flex($jc,$ai) {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: $jc;
+   align-items: $ai; 
 }
 
 body {
+    background: white;
     font-family: $font;
+}
+
+.wrapper {
+    max-width: $wrap;
+    margin: $mc;
+}
+
+.container {
+    max-width: $container;
+    margin: $mc;
 }

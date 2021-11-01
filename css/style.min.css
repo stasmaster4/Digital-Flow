@@ -1,6 +1,32 @@
-*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+@charset "UTF-8";
+/* margin center */
+/* text color black */
+/* text color white */
+body { background: white; font-family: "Montserrat", sans-serif; }
 
-body { font-family: "Montserrat", sans-serif; }
+.wrapper { max-width: 1920px; margin: 0 auto; }
 
-*, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.container { max-width: 1214px; margin: 0 auto; }
+
+*, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+
+.home { min-height: 1030px; position: relative; /* outline: 1px solid red; временная рамка */ }
+
+.home_img { /* обращение к вложенному классу */ width: 100%; height: 100%; position: absolute; -o-object-fit: cover; object-fit: cover; }
+
+.home_container { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 2; }
+
+.head { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding-top: 26px; }
+
+.home_container-center { /* outline: 1px solid red; */ margin-top: 172px; text-align: center; }
+
+.home_container-center h1 { /* обращение к вложенному элементу */ font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 400; font-size: 74px; line-height: 90px; text-transform: uppercase; color: #212733; }
+
+.home_container-center h6 { margin-top: 20px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 18px; line-height: 22px; color: #000000; }
+
+.home_container-center .home_btn { width: 280px; height: 60px; display: -webkit-box; display: -ms-flexbox; display: flex; margin: 0 auto; margin-top: 60px; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 14px 30px; border: 1px solid #000000; }
+
+.home_container-center .home_btn a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: #000000; }
 /*# sourceMappingURL=style.min.css.map */
