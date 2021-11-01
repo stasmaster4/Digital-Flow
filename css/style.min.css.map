@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "ACEA,AAAA,CAAC,EACD,CAAC,AAAA,OAAO,EACR,CAAC,AAAA,QAAQ,CAAC,EACN,UAAU,EAAE,UAAU,GACzB;;AAED,AAAA,IAAI,CAAC,EACD,WAAW,EATR,YAAY,EAAE,UAAU,GAU9B;;ACVD,AAAA,CAAC,EACD,CAAC,AAAA,QAAQ,EACT,CAAC,AAAA,OAAO,CAAC,EACL,UAAU,EAAE,UAAU,GACzB",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_general.scss",
+        "../scss/_reset.scss",
+        "../scss/_home.scss",
+        "../scss/_about.scss",
+        "../scss/_portfolio.scss",
+        "../scss/_products.scss",
+        "../scss/_advantage.scss",
+        "../scss/_request.scss",
+        "../scss/_info.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
