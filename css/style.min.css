@@ -79,19 +79,17 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .products .product_card .more a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: white; }
 
-.advantage { background-color: white; position: relative; }
+.advantage { position: relative; }
 
-.advantage img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; vertical-align: top; }
+.advantage_img { width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover; vertical-align: top; }
 
-.advantage_container { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 2; }
+.advantage_container { position: absolute; top: 336px; left: 0; right: 0; z-index: 2; }
 
-.advantage_container { position: absolute; top: 336px; }
+.advantage_container h2 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 600; font-size: 48px; line-height: 59px; text-align: left; color: black; }
 
-.advantage_container h1 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; text-align: left; color: #000000; }
+.advantage_container .content { display: -ms-grid; display: grid; grid-gap: 0px 112px; -ms-grid-columns: (500px)[2]; grid-template-columns: repeat(2, 500px); }
 
-.advantage_content { display: -ms-grid; display: grid; -ms-grid-columns: (500px)[2]; grid-template-columns: repeat(2, 500px); }
+.advantage_container .content_block { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 90px; }
 
-.advantage_content .content { display: -webkit-box; display: -ms-flexbox; display: flex; }
-
-.advantage_content .content p { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; color: #1A1F25; }
+.advantage_container .content_block p { margin-left: 20px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; color: black; }
 /*# sourceMappingURL=style.min.css.map */
