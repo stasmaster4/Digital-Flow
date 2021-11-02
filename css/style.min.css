@@ -65,19 +65,19 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .products_container { padding: 90px 0; }
 
-.products_container h1 { padding-bottom: 80px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 550; font-size: 48px; line-height: 59px; text-align: center; color: #FFFFFF; }
+.products h2 { padding-bottom: 80px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 550; font-size: 48px; line-height: 59px; text-align: center; color: white; }
 
-.product_card { display: -ms-grid; display: grid; -ms-grid-columns: (245px)[5]; grid-template-columns: repeat(5, 245px); }
+.products .product_card { display: -ms-grid; display: grid; -ms-grid-columns: (245px)[5]; grid-template-columns: repeat(5, 245px); }
 
-.product { border: 1px solid #595959; padding: 0 20px; }
+.products .product_card .product { border: 1px solid #595959; padding: 0 20px; }
 
-.product .product_icon { display: block; margin: 46px auto 20px; }
+.products .product_card .product_icon { display: block; margin: 46px auto 20px; }
 
-.product p { padding: 0 17px; padding-bottom: 40px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; text-align: center; color: #FFFFFF; }
+.products .product_card .product p { padding: 0 17px; padding-bottom: 40px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; text-align: center; color: white; }
 
-.product .more { margin: 80px auto; width: 185px; height: 55px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 14px 30px; border: 1px solid #FFFFFF; }
+.products .product_card .more { margin: 80px auto; width: 185px; height: 55px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 14px 30px; border: 1px solid #FFFFFF; }
 
-.product .more a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: #FFFFFF; }
+.products .product_card .more a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: white; }
 
 .advantage { background-color: white; position: relative; }
 
