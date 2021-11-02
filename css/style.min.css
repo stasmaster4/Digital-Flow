@@ -124,4 +124,26 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 .request_container .right .card_item .old_price { font-family: white; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; -webkit-text-decoration-line: line-through; text-decoration-line: line-through; color: white; position: absolute; top: 202px; }
 
 .request_container .right .card_item .new_price { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 24px; line-height: 29px; color: white; position: absolute; top: 225px; }
+
+.info { background-color: #17181c; }
+
+.info_container .info_top { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: start; padding-top: 103px; padding-bottom: 45px; border-bottom: 1px solid #595959; }
+
+.info_container .info_top .info_card { max-width: 266px; margin-right: 40px; }
+
+.info_container .info_top .info_card h5 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 20px; line-height: 24px; color: white; }
+
+.info_container .info_top .info_card p { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 20px; color: #E6E6E6; }
+
+.info_container .info_top .contacts h5 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 20px; line-height: 24px; color: white; }
+
+.info_container .info_top .contacts div { margin-top: 30px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 20px; color: #E6E6E6; }
+
+.info_container .info_top .contacts div img { margin-right: 20px; }
+
+.info_container .info_bottom { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding-top: 46px; padding-bottom: 102px; }
+
+.info_container .info_bottom p { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 600; font-size: 24px; line-height: 29px; color: white; }
+
+.info_container .info_bottom img { margin: 0 3px; }
 /*# sourceMappingURL=style.min.css.map */
