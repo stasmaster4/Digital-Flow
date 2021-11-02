@@ -111,15 +111,17 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .request_container .left .send span { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: white; }
 
-.request_container .right h2 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; color: white; }
+.request_container .right h2 { text-align: end; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; color: white; }
 
-.request_container .right .card { display: -ms-grid; display: grid; -ms-grid-columns: (194px)[3]; grid-template-columns: repeat(3, 194px); }
+.request_container .right .card { display: -ms-grid; display: grid; -ms-grid-columns: (194px)[3]; grid-template-columns: repeat(3, 194px); grid-gap: 10px; margin-top: 140px; }
 
-.request_container .right .card h4 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 20px; line-height: 24px; color: white; }
+.request_container .right .card_item { border: 1px solid #FFFFFF; height: 284px; padding-left: 15px; position: relative; }
 
-.request_container .right .card .decription { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 20px; color: #E8E8E8; }
+.request_container .right .card_item h4 { margin-top: 60px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 20px; line-height: 24px; color: white; }
 
-.request_container .right .card .old_price { font-family: white; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; -webkit-text-decoration-line: line-through; text-decoration-line: line-through; color: white; }
+.request_container .right .card_item .decription { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: normal; font-size: 16px; line-height: 20px; color: #E8E8E8; position: absolute; top: 98px; }
 
-.request_container .right .card .new_price { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 24px; line-height: 29px; color: white; }
+.request_container .right .card_item .old_price { font-family: white; font-style: normal; font-weight: 500; font-size: 14px; line-height: 17px; -webkit-text-decoration-line: line-through; text-decoration-line: line-through; color: white; position: absolute; top: 202px; }
+
+.request_container .right .card_item .new_price { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 24px; line-height: 29px; color: white; position: absolute; top: 225px; }
 /*# sourceMappingURL=style.min.css.map */
