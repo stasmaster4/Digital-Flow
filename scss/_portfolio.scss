@@ -1,49 +1,48 @@
 .portfolio {
-    background-color: white;
-    position: relative;
-}
-
-.portfolio_container {
     position: relative;
 
-    h2 {
-        margin-top: 90px;
-        margin-bottom: 70px;
-        font-family: $font;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 59px;
-        text-align: center;
-        color: #000000;
-    }
+    &_container {
+        position: relative;
 
-    div {
-        position: absolute;
-        top: 340px;
-        right: 68px;
-        width: 229px;
-        height: 55px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 18px 30px;
-        border: 1px solid #000000;
-    }
+        h2 {
+            margin-top: 90px;
+            margin-bottom: 70px;
+            font-family: $font;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            color: $tcb;
+        }
 
-    a {
-        font-family: $font;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        color: #000000;
-        display: block;
-        height: 100%;
-    }
+        div {
+            position: absolute;
+            top: 340px;
+            right: 68px;
+            width: 229px;
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 30px;
+            border: 1px solid #000000;
 
-    .portfolio_img {
-        vertical-align: top;
+            a {
+                font-family: $font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: $tcb;
+                display: block;
+                height: 100%;
+            }
+        }
+
+        .portfolio_img {
+            vertical-align: top;
+        }
     }
 }

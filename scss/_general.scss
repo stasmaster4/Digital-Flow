@@ -4,6 +4,7 @@ $container: 1214px;
 $mc: 0 auto; /* margin center */
 $tcb: black; /* text color black */
 $tcw: white; /* text color white */
+$outline: 1px solid red;
 
 @mixin flex($jc,$ai) {
    display: flex;

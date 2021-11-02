@@ -35,7 +35,7 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .about_container { max-width: 500px; position: absolute; top: 273px; right: 353px; }
 
-.about_container h2 { margin-bottom: 60px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; text-align: right; color: #000000; }
+.about_container h2 { margin-bottom: 60px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; text-align: right; color: black; }
 
 .about_container p { margin-bottom: 40px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; text-align: right; color: #606060; }
 
@@ -49,15 +49,15 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .scroll_bar .point_white { border: 2px solid #8D8C92; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.portfolio { background-color: white; position: relative; }
+.portfolio { position: relative; }
 
 .portfolio_container { position: relative; }
 
-.portfolio_container h2 { margin-top: 90px; margin-bottom: 70px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 600; font-size: 48px; line-height: 59px; text-align: center; color: #000000; }
+.portfolio_container h2 { margin-top: 90px; margin-bottom: 70px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 600; font-size: 48px; line-height: 59px; text-align: center; color: black; }
 
 .portfolio_container div { position: absolute; top: 340px; right: 68px; width: 229px; height: 55px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 18px 30px; border: 1px solid #000000; }
 
-.portfolio_container a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: #000000; display: block; height: 100%; }
+.portfolio_container div a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: black; display: block; height: 100%; }
 
 .portfolio_container .portfolio_img { vertical-align: top; }
 
