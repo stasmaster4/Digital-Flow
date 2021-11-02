@@ -2,9 +2,7 @@
     min-height: 1030px;
     position: relative;
 
-    /* outline: 1px solid red; временная рамка */
-    &_img {
-        /* обращение к вложенному классу */
+    .home_img {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -29,12 +27,10 @@
 }
 
 .home_container-center {
-    /* outline: 1px solid red; */
     margin-top: 172px;
     text-align: center;
 
     h1 {
-        /* обращение к вложенному элементу */
         font-family: $font;
         font-style: normal;
         font-weight: 400;
@@ -53,26 +49,27 @@
         line-height: 22px;
         color: #000000;
     }
+}
+.home_btn {
+    width: 280px;
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px;
+    border: 1px solid #000000;
 
-    .home_btn {
-        width: 280px;
-        height: 60px;
-        display: flex;
-        margin: 0 auto;
-        margin-top: 60px;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 14px 30px;
-        border: 1px solid #000000;
-
-        a {
-            font-family: $font;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            color: #000000;
-        }
+    a {
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        display: block;
+        height: 100%;
     }
 }
