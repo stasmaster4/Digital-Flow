@@ -29,15 +29,15 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .home_container-center .home_btn a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: black; display: block; height: 100%; }
 
-.about { background-color: white; position: relative; }
+.about { position: relative; }
 
-.about .about_img { width: 960px; height: 940px; -o-object-fit: cover; object-fit: cover; vertical-align: top; }
+.about_img { width: 960px; height: 940px; -o-object-fit: cover; object-fit: cover; vertical-align: top; }
 
-.about .about_container { max-width: 500px; position: absolute; top: 273px; right: 353px; }
+.about_container { max-width: 500px; position: absolute; top: 273px; right: 353px; }
 
-.about .about_container h2 { margin-bottom: 60px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; text-align: right; color: #000000; }
+.about_container h2 { margin-bottom: 60px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 48px; line-height: 59px; text-align: right; color: #000000; }
 
-.about .about_container p { margin-bottom: 40px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; text-align: right; color: #606060; }
+.about_container p { margin-bottom: 40px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 150%; text-align: right; color: #606060; }
 
 .scroll_bar { position: absolute; top: 388px; right: 138px; z-index: 2; }
 
@@ -45,7 +45,7 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .scroll_bar .point a { display: block; height: 100%; }
 
-.scroll_bar .point_black { background: #313035; }
+.scroll_bar .point_black { background: #313035; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .scroll_bar .point_white { border: 2px solid #8D8C92; -webkit-box-sizing: border-box; box-sizing: border-box; }
 

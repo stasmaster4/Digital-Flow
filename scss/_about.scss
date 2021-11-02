@@ -1,42 +1,41 @@
 .about {
-    background-color: white;
     position: relative;
 
-    .about_img {
+    &_img {
         width: 960px;
         height: 940px;
         object-fit: cover;
         vertical-align: top;
     }
 
-    .about_container {
-    max-width: 500px;
-    position: absolute;
-    top: 273px;
-    right: 353px;
+    &_container {
+        max-width: 500px;
+        position: absolute;
+        top: 273px;
+        right: 353px;
 
-    h2 {
-        margin-bottom: 60px;
-        font-family: $font;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 59px;
-        text-align: right;
-        color: #000000;
-    }
+        h2 {
+            margin-bottom: 60px;
+            font-family: $font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 59px;
+            text-align: right;
+            color: #000000;
+        }
 
-    p {
-        margin-bottom: 40px;
-        font-family: $font;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 150%;
-        text-align: right;
-        color: #606060;
+        p {
+            margin-bottom: 40px;
+            font-family: $font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: right;
+            color: #606060;
+        }
     }
-}
 }
 
 .scroll_bar {
@@ -59,6 +58,7 @@
 
     .point_black {
         background: #313035;
+        box-sizing: border-box;
     }
 
     .point_white {
