@@ -34,6 +34,8 @@
             }
 
             .contacts {
+                display: block;
+
                 h5 {
                     font-family: $font;
                     font-style: normal;
@@ -43,7 +45,8 @@
                     color: $tcw;
                 }
 
-                div {
+                p,
+                a {
                     margin-top: 30px;
                     font-family: $font;
                     font-style: normal;
@@ -52,8 +55,17 @@
                     line-height: 20px;
                     color: #E6E6E6;
 
+
                     img {
                         margin-right: 20px;
+                    }
+
+                    a {
+                        border-bottom: 1px solid #17181c;
+
+                        &:hover {
+                            border-bottom: 1px solid white;
+                        }
                     }
                 }
             }

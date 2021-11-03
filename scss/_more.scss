@@ -1,0 +1,68 @@
+.more {
+    position: relative;
+    min-height: 1080px;
+
+    &_img {
+        width: 1920px;
+        height: 1080px;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    &_container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+}
+
+.more_container {
+    text-align: center;
+    margin-top: 292px;
+    h1 {
+        font-family: $font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 144px;
+        line-height: 176px;
+        text-transform: uppercase;
+        color: $tcw;
+    }
+
+    p {
+        margin-top: 40px;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 150%;
+        text-align: center;
+        color: $tcw;
+    }
+
+    div {
+        width: 281px;
+        height: 56px;
+        padding: 18px 30px;
+        border: 1px solid white;
+        margin: 80px auto;
+        &:hover {
+            cursor: pointer;
+            outline: 2px solid #fff;
+        }
+
+        a {
+            font-family: $font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $tcw;
+            height: 100%;
+            margin: 0 10px;
+        }
+    }
+}

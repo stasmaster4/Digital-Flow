@@ -42,7 +42,7 @@
             }
         }
 
-        .more {
+        .more_btn {
             margin: 80px auto;
             width: 185px;
             height: 55px;
@@ -52,6 +52,10 @@
             align-items: center;
             padding: 14px 30px;
             border: 1px solid #FFFFFF;
+            &:hover {
+                cursor: pointer;
+                outline: 2px solid #fff;
+            }
 
             a {
                 font-family: $font;
