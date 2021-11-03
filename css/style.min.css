@@ -17,9 +17,29 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .home_container { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 2; }
 
-.home_container .swipe_menu:hover { cursor: pointer; }
+.home_container .click_menu:hover { cursor: pointer; }
 
 .head { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 26px; }
+
+.on-click-menu { display: none; position: absolute; top: 0; left: 817px; z-index: 2; width: 750px; height: 1030px; background: #191a1e; padding-left: 85px; padding-top: 46px; }
+
+.on-click-menu img:hover { cursor: pointer; }
+
+.on-click-menu ul { margin-top: 93px; }
+
+.on-click-menu ul li { list-style-type: none; margin-bottom: 40px; }
+
+.on-click-menu ul li a { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 18px; line-height: 22px; color: rgba(255, 255, 255, 0.3); }
+
+.on-click-menu ul li a:hover { border-bottom: 1px solid white; }
+
+.on-click-menu button { margin-top: 200px; margin-bottom: 130px; width: 280px; height: 60px; background: -webkit-gradient(linear, left top, left bottom, from(#61B3C9), to(#074D88)); background: linear-gradient(180deg, #61B3C9 0%, #074D88 100%); border: none; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 500; font-size: 16px; line-height: 20px; color: #FFFFFF; }
+
+.on-click-menu button:hover { cursor: pointer; }
+
+.menu:active .on-click-menu { display: block; }
+
+.on-click-menu:hover { display: block; }
 
 .home_container-center { margin-top: 172px; text-align: center; }
 

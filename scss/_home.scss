@@ -17,7 +17,7 @@
         bottom: 0;
         z-index: 2;
 
-        .swipe_menu {
+        .click_menu {
             &:hover {
                 cursor: pointer;
             }
@@ -30,6 +30,74 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 26px;
+}
+
+.on-click-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 817px;
+    z-index: 2;
+    width: 750px;
+    height: 1030px;
+    background: #191a1e;
+    padding-left: 85px;
+    padding-top: 46px;
+
+    img {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    ul {
+        margin-top: 93px;
+
+        li {
+            list-style-type: none;
+            margin-bottom: 40px;
+
+            a {
+                font-family: $font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: rgba(255, 255, 255, 0.3);
+
+                &:hover {
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+    }
+
+    button {
+        margin-top: 200px;
+        margin-bottom: 130px;
+        width: 280px;
+        height: 60px;
+        background: linear-gradient(180deg, #61B3C9 0%, #074D88 100%);
+        border: none;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.menu:active .on-click-menu {
+    display: block;
+}
+
+.on-click-menu:hover {
+    display: block;
 }
 
 .home_container-center {
@@ -67,11 +135,12 @@
         align-items: center;
         padding: 18px 30px;
         border: 1px solid #000000;
+
         &:hover {
             cursor: pointer;
             outline: 2px solid #000000;
         }
-    
+
         a {
             font-family: $font;
             font-style: normal;
@@ -82,5 +151,5 @@
             display: block;
             height: 100%;
         }
-}
+    }
 }
