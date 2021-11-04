@@ -28,15 +28,11 @@
 .head {
     display: flex;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 1920px;
-    z-index: 10px;
+    max-width: 100%;
+    width: 1245px;
+    z-index: 1;
     align-items: center;
     padding: 26px 15px;
-    outline: 1px solid red;
 }
 
 .on-click-menu {
@@ -51,8 +47,10 @@
     min-height: 1030px;
     background: #191a1e;
     padding: 45px 0 0 85px;
-    transition: left 0.3s ease 0s; /* переход анимация */
-    overflow: auto; /* пролистывание на маленьких экранах */
+    transition: left 0.3s ease 0s;
+    /* переход анимация */
+    overflow: auto;
+    /* пролистывание на маленьких экранах */
 
     img {
         &:hover {
@@ -106,30 +104,23 @@
     display: block;
 }
 
-/* .menu:active .on-click-menu {
-    display: block;
-}
-
-.on-click-menu:hover {
-    display: block;
-} */
-
 .home_container-center {
-    margin-top: 172px;
+    padding: 172px 0;
     text-align: center;
+    margin: 0 auto;
 
     h1 {
         font-family: $font;
         font-style: normal;
         font-weight: 400;
-        font-size: 74px;
+        font-size: 5.5vw;
         line-height: 90px;
         text-transform: uppercase;
         color: #212733;
     }
 
     p {
-        margin-top: 20px;
+        padding: 20px 0;
         font-family: $font;
         font-style: normal;
         font-weight: 500;
@@ -138,32 +129,41 @@
         color: $tcb;
     }
 
-    .home_btn {
-        width: 280px;
-        height: 60px;
+    a {
+        box-sizing: border-box;
+        margin: 40px auto;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: $tcb;
+        width: clamp(140px, 50%, 280px);
+        height: clamp(30px, 50%, 60px);
         display: flex;
-        margin: 0 auto;
-        margin-top: 60px;
-        flex-direction: row;
         justify-content: space-between;
         align-items: center;
         padding: 18px 30px;
         border: 1px solid #000000;
 
         &:hover {
-            cursor: pointer;
             outline: 2px solid #000000;
         }
+    }
+}
 
+@media (min-width: 1245px) {
+    .home_container-center {
+        h1 {
+            font-size: 74px;
+        }
+    } 
+}
+
+@media (max-width: 600px) {
+    .home_container-center {
         a {
-            font-family: $font;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            color: $tcb;
-            display: block;
-            height: 100%;
+            font-size: 3vw;
         }
     }
 }
