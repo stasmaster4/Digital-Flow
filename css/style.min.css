@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *, *::before, *::after { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
 
 a { text-decoration: none; }
@@ -9,7 +10,7 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .wrapper { max-width: 1920px; margin: 0 auto; }
 
-.container { max-width: 1214px; margin: 0 auto; }
+.container { max-width: 1245px; margin: 0 auto; padding: 0 15px; }
 
 .home { min-height: 1030px; position: relative; }
 
@@ -19,9 +20,9 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .home_container .click_menu:hover { cursor: pointer; }
 
-.head { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 26px; }
+.head { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; position: fixed; top: 0; left: 0; width: 100%; max-width: 1920px; z-index: 10px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 26px 15px; outline: 1px solid red; }
 
-.on-click-menu { display: none; position: absolute; top: 0; left: 817px; z-index: 2; width: 750px; height: 1030px; background: #191a1e; padding-left: 85px; padding-top: 46px; }
+.on-click-menu { display: none; position: absolute; top: 0; left: 817px; z-index: 2; width: 750px; max-width: 750px; height: 1030px; min-height: 1030px; background: #191a1e; padding: 45px 0 0 85px; -webkit-transition: left 0.3s ease 0s; transition: left 0.3s ease 0s; /* переход анимация */ overflow: auto; /* пролистывание на маленьких экранах */ }
 
 .on-click-menu img:hover { cursor: pointer; }
 
@@ -37,10 +38,15 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .on-click-menu button:hover { cursor: pointer; }
 
-.menu:active .on-click-menu { display: block; }
+.active { display: block; }
 
-.on-click-menu:hover { display: block; }
+/* .menu:active .on-click-menu {
+    display: block;
+}
 
+.on-click-menu:hover {
+    display: block;
+} */
 .home_container-center { margin-top: 172px; text-align: center; }
 
 .home_container-center h1 { font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 400; font-size: 74px; line-height: 90px; text-transform: uppercase; color: #212733; }

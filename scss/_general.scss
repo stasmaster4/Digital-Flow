@@ -1,6 +1,6 @@
 $font: 'Montserrat', sans-serif;
 $wrap: 1920px;
-$container: 1214px;
+$container: 1245px;
 $mc: 0 auto; /* margin center */
 $tcb: black; /* text color black */
 $tcw: white; /* text color white */
@@ -26,4 +26,5 @@ body {
 .container {
     max-width: $container;
     margin: $mc;
+    padding: 0 15px;
 }

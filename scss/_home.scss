@@ -28,8 +28,15 @@
 .head {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1920px;
+    z-index: 10px;
     align-items: center;
-    margin-top: 26px;
+    padding: 26px 15px;
+    outline: 1px solid red;
 }
 
 .on-click-menu {
@@ -39,10 +46,13 @@
     left: 817px;
     z-index: 2;
     width: 750px;
+    max-width: 750px;
     height: 1030px;
+    min-height: 1030px;
     background: #191a1e;
-    padding-left: 85px;
-    padding-top: 46px;
+    padding: 45px 0 0 85px;
+    transition: left 0.3s ease 0s; /* переход анимация */
+    overflow: auto; /* пролистывание на маленьких экранах */
 
     img {
         &:hover {
@@ -92,13 +102,17 @@
     }
 }
 
-.menu:active .on-click-menu {
+.active {
+    display: block;
+}
+
+/* .menu:active .on-click-menu {
     display: block;
 }
 
 .on-click-menu:hover {
     display: block;
-}
+} */
 
 .home_container-center {
     margin-top: 172px;
