@@ -107,10 +107,8 @@
 .home_container-center {
     padding: 172px 0;
     text-align: center;
-    margin: 0 auto;
 
     h1 {
-        font-family: $font;
         font-style: normal;
         font-weight: 400;
         font-size: 5.5vw;
@@ -121,7 +119,6 @@
 
     p {
         padding: 20px 0;
-        font-family: $font;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
@@ -129,41 +126,30 @@
         color: $tcb;
     }
 
-    a {
-        box-sizing: border-box;
-        margin: 40px auto;
+    form {
+        padding: 20px 15px;
+    }
+
+    .home_btn {
         font-family: $font;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: $tcb;
-        width: clamp(140px, 50%, 280px);
-        height: clamp(30px, 50%, 60px);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 18px 30px;
+        max-width: 280px;
+        max-height: 60px;
+        padding: 9px 15px;
         border: 1px solid #000000;
+        background: none;
+
+        img {
+            padding: 0 10px;
+        }
 
         &:hover {
             outline: 2px solid #000000;
-        }
-    }
-}
-
-@media (min-width: 1245px) {
-    .home_container-center {
-        h1 {
-            font-size: 74px;
-        }
-    } 
-}
-
-@media (max-width: 600px) {
-    .home_container-center {
-        a {
-            font-size: 3vw;
+            cursor: pointer;
         }
     }
 }

@@ -6,13 +6,6 @@ $tcb: black; /* text color black */
 $tcw: white; /* text color white */
 $outline: 1px solid red;
 
-@mixin flex($jc,$ai) {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: $jc;
-   align-items: $ai; 
-}
-
 body {
     background: white;
     font-family: $font;
@@ -27,8 +20,4 @@ body {
     max-width: $container;
     margin: $mc;
     padding: 0 15px;
-}
-
-a {
-    text-decoration: none;
 }

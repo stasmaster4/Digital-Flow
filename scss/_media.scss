@@ -1,0 +1,18 @@
+@media (min-width: 1245px) {
+    .home_container-center {
+        h1 {
+            font-size: 74px;
+        }
+    } 
+}
+
+@media (max-width: 600px) {
+    .logo img {
+        width: 150px;
+    }
+    
+    .home_btn {
+        width: 230px;
+        height: 40px;
+    }
+}
