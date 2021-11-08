@@ -2,11 +2,11 @@
     background-color: #1a1f25;
 
     &_container {
-        padding: 90px 0;
+        padding: 90px 15px;
     }
 
     h2 {
-        padding-bottom: 80px;
+        margin-bottom: 80px;
         font-family: $font;
         font-style: normal;
         font-weight: 550;
@@ -18,10 +18,11 @@
 
     .product_card {
         display: grid;
-        grid-template-columns: repeat(5, 245px);
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(243px, 1fr));
 
         .product {
-            border: 1px solid #595959;
+            /* outline: 1px solid #595959; */
             padding: 0 20px;
 
             &_icon {

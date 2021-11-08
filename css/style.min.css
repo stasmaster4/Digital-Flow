@@ -114,13 +114,13 @@ body { background: white; font-family: "Montserrat", sans-serif; }
 
 .products { background-color: #1a1f25; }
 
-.products_container { padding: 90px 0; }
+.products_container { padding: 90px 15px; }
 
-.products h2 { padding-bottom: 80px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 550; font-size: 48px; line-height: 59px; text-align: center; color: white; }
+.products h2 { margin-bottom: 80px; font-family: "Montserrat", sans-serif; font-style: normal; font-weight: 550; font-size: 48px; line-height: 59px; text-align: center; color: white; }
 
-.products .product_card { display: -ms-grid; display: grid; -ms-grid-columns: (245px)[5]; grid-template-columns: repeat(5, 245px); }
+.products .product_card { display: -ms-grid; display: grid; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-grid-columns: (minmax(243px, 1fr))[auto-fit]; grid-template-columns: repeat(auto-fit, minmax(243px, 1fr)); }
 
-.products .product_card .product { border: 1px solid #595959; padding: 0 20px; }
+.products .product_card .product { /* outline: 1px solid #595959; */ padding: 0 20px; }
 
 .products .product_card .product_icon { display: block; margin: 46px auto 20px; }
 
