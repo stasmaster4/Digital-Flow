@@ -4,30 +4,50 @@
         max-width: 960px;
         margin: 0 auto;
     }
-        &_container {
-            &_scroll-bar {
-                margin: 0;
-            }
+
+    &_container {
+        &_scroll-bar {
+            margin: 0;
         }
     }
+}
 
 @media (min-width: 1245px) {
     .home_container-center {
         h1 {
             font-size: 74px;
         }
-    } 
+    }
+}
+
+@media (max-width: 1050px) {
+    .portfolio_container {
+            left: 50%;
+        transform: translate(-50%);
+
+        h2 {
+            font-size: 32px;
+        }
+
+        &_go_site {
+            left: 50%;
+        transform: translate(-50%); 
+        }
+    }
 }
 
 @media (max-width: 710px) {
     .about_container {
         justify-content: space-between;
+
         &_text {
             margin: 0;
+
             h2 {
                 font-size: 32px;
                 text-align: center;
             }
+
             p {
                 text-align: center;
             }
@@ -39,7 +59,7 @@
     .logo img {
         width: 150px;
     }
-    
+
     .home_btn {
         width: 230px;
         height: 40px;

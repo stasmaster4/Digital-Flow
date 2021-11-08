@@ -1,52 +1,75 @@
 .portfolio {
+    min-height: 1000px;
     position: relative;
 
+    &_img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    &_content_img {
+        position: absolute;
+        max-width: 100%;
+        bottom: 70px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    &_scroll-bar {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+        right: 15px;
+    }
+
     &_container {
-        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
 
         h2 {
-            margin-top: 90px;
-            margin-bottom: 70px;
+            position: absolute;
+            left: 50%;
+        transform: translate(-50%);
+            padding: 90px 0 70px 0;
             font-family: $font;
             font-style: normal;
             font-weight: 600;
             font-size: 48px;
             line-height: 59px;
-            text-align: center;
             color: $tcb;
         }
 
-        div {
-            position: absolute;
-            top: 340px;
-            right: 68px;
-            width: 229px;
-            height: 55px;
+        &_go_site {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            padding: 18px 30px;
-            border: 1px solid #000000;
+            position: absolute;
+            top: 360px;
+            right: 40px;
+            width: 230px;
+            height: 55px;
+            border: 1px solid #000;
+            padding: 14px 30px;
+            font-family: $font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #000000;
+
+            img {
+                padding: 0 10px;
+            }
+
             &:hover {
-                cursor: pointer;
-                outline: 2px solid #000000;
+                outline: solid 2px #000;
             }
-
-            a {
-                font-family: $font;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 20px;
-                color: $tcb;
-                display: block;
-                height: 100%;
-            }
-        }
-
-        .portfolio_img {
-            vertical-align: top;
         }
     }
 }
