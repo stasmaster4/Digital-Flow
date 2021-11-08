@@ -1,68 +1,71 @@
 .about {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 
     &_img {
-        width: 960px;
-        height: 940px;
-        object-fit: cover;
-        vertical-align: top;
+        img {
+            width: 100%;
+            max-width: 960px;
+        }
     }
 
     &_container {
-        max-width: 500px;
-        position: absolute;
-        top: 273px;
-        right: 353px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
 
-        h2 {
-            margin-bottom: 60px;
-            font-family: $font;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 48px;
-            line-height: 59px;
-            text-align: right;
-            color: $tcb;
+        &_text {
+            max-width: 500px;
+            padding: 0 15px;
+            margin-right: 160px;
+
+            h2 {
+                margin-bottom: 60px;
+                font-family: $font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 59px;
+                text-align: right;
+                color: $tcb;
+            }
+
+            p {
+                margin-bottom: 40px;
+                font-family: $font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 150%;
+                text-align: right;
+                color: #606060;
+            }
         }
 
-        p {
-            margin-bottom: 40px;
-            font-family: $font;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 150%;
-            text-align: right;
-            color: #606060;
+        &_scroll-bar {
+            padding: 15px;
+
+            .point {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                margin-bottom: 15px;
+
+                a {
+                    display: block;
+                    height: 100%;
+                }
+            }
+
+            .point_black {
+                background: #313035;
+                box-sizing: border-box;
+            }
+
+            .point_white {
+                border: 2px solid #8D8C92;
+                box-sizing: border-box;
+            }
         }
-    }
-}
-
-.scroll_bar {
-    position: absolute;
-    top: 388px;
-    right: 138px;
-    z-index: 2;
-
-    .point {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        margin-bottom: 15px;
-
-        a {
-            display: block;
-            height: 100%;
-        }
-    }
-
-    .point_black {
-        background: #313035;
-        box-sizing: border-box;
-    }
-
-    .point_white {
-        border: 2px solid #8D8C92;
-        box-sizing: border-box;
     }
 }
